@@ -16,5 +16,9 @@
 	"precise_z_height": "0",
 	"skirt_distance": "2",
 	"skirt_loops": "0",
-	"spiral_mode": "0"
+	"spiral_mode": "0",
+	"sparse_infill_speed": "80",
+	"internal_solid_infill_speed": "80",
+	"travel_speed": "160",
+	"support_speed": "80"
 }
