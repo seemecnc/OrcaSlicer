@@ -154,116 +154,16 @@
 		"0.70mm Extra Draft @SeeMeCNC RostockMAX v4 1.0"
 	],
 	"compatible_prints_condition": "",
-	"close_fan_the_first_x_layers": [
-		"3"
-	],
-	"cool_plate_temp": [
-		"100"
-	],
-	"cool_plate_temp_initial_layer": [
-		"100"
-	],
-	"enable_overhang_bridge_fan": [
-		"1"
-	],
-	"eng_plate_temp": [
-		"100"
-	],
-	"eng_plate_temp_initial_layer": [
-		"100"
-	],
-	"fan_cooling_layer_time": [
-		"45"
-	],
-	"fan_max_speed": [
-		"30"
-	],
-	"fan_min_speed": [
-		"0"
-	],
-	"filament_cost": [
-		"30"
-	],
-	"filament_density": [
-		"1.04"
-	],
-	"filament_max_volumetric_speed": [
-		"12"
-	],
-	"filament_notes": [
-		""
-	],
-	"filament_type": [
-		"ABS"
-	],
-	"full_fan_speed_layer": [
-		"3"
-	],
-	"hot_plate_temp": [
-		"100"
-	],
-	"hot_plate_temp_initial_layer": [
-		"100"
-	],
-	"internal_bridge_fan_speed": [
-		"30"
-	],
-	"nozzle_temperature": [
-		"240"
-	],
-	"nozzle_temperature_initial_layer": [
-		"240"
-	],
-	"nozzle_temperature_range_high": [
-		"270"
-	],
-	"nozzle_temperature_range_low": [
-		"230"
-	],
-	"overhang_fan_threshold": [
-		"50%"
-	],
-	"pressure_advance": [
-		"0.0400"
-	],
-	"reduce_fan_stop_start_freq": [
-		"1"
-	],
 	"slow_down_for_layer_cooling": [
 		"1"
 	],
 	"slow_down_layer_time": [
 		"10"
 	],
+	"fan_cooling_layer_time": [
+		"45"
+	],
 	"slow_down_min_speed": [
 		"20"
-	],
-	"supertack_plate_temp": [
-		"100"
-	],
-	"supertack_plate_temp_initial_layer": [
-		"100"
-	],
-	"temperature_vitrification": [
-		"98"
-	],
-	"textured_cool_plate_temp": [
-		"100"
-	],
-	"textured_cool_plate_temp_initial_layer": [
-		"100"
-	],
-	"textured_plate_temp": [
-		"100"
-	],
-	"textured_plate_temp_initial_layer": [
-		"100"
-	],
-	"keep_fan_always_on": [
-		"0"
-	],
-	"dont_slow_down_outer_wall": [
-		"0"
-	],
-	"description": ""
+	]
 }
