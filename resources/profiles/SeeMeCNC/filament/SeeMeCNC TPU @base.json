@@ -1,0 +1,26 @@
+{
+	"type": "filament",
+	"name": "SeeMeCNC TPU @base",
+	"inherits": "SeeMeCNC base",
+	"from": "system",
+	"instantiation": "false",
+	"slow_down_for_layer_cooling": [
+		"1"
+	],
+	"slow_down_layer_time": [
+		"18"
+	],
+	"fan_cooling_layer_time": [
+		"100"
+	],
+	"slow_down_min_speed": [
+		"20"
+	],
+	"filament_max_volumetric_speed": [
+		"4"
+	],
+	"filament_id": "SMCFU001",
+	"filament_type": [
+		"TPU"
+	]
+}

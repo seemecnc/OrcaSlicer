@@ -1,6 +1,6 @@
 {
 	"name": "SeeMeCNC",
-	"version": "2.4.0.41",
+	"version": "2.4.0.47",
 	"force_update": "1",
 	"machine_model_list": [
 		{
@@ -568,32 +568,56 @@
 	],
 	"filament_list": [
 		{
-			"name": "SeeMeCNC filament base",
-			"sub_path": "filament/SeeMeCNC_filament_base.json"
+			"name": "SeeMeCNC base",
+			"sub_path": "filament/SeeMeCNC_base.json"
 		},
 		{
-			"name": "SeeMeCNC ABS",
-			"sub_path": "filament/SeeMeCNC_ABS.json"
+			"name": "SeeMeCNC PLA @base",
+			"sub_path": "filament/SeeMeCNC PLA @base.json"
 		},
 		{
-			"name": "SeeMeCNC PA-CF",
-			"sub_path": "filament/SeeMeCNC_PA-CF.json"
+			"name": "SeeMeCNC PETG @base",
+			"sub_path": "filament/SeeMeCNC PETG @base.json"
+		},
+		{
+			"name": "SeeMeCNC ABS @base",
+			"sub_path": "filament/SeeMeCNC ABS @base.json"
+		},
+		{
+			"name": "SeeMeCNC PETG-CF @base",
+			"sub_path": "filament/SeeMeCNC PETG-CF @base.json"
+		},
+		{
+			"name": "SeeMeCNC PA-CF @base",
+			"sub_path": "filament/SeeMeCNC PA-CF @base.json"
+		},
+		{
+			"name": "SeeMeCNC TPU @base",
+			"sub_path": "filament/SeeMeCNC TPU @base.json"
+		},
+		{
+			"name": "SeeMeCNC PLA",
+			"sub_path": "filament/SeeMeCNC_PLA.json"
 		},
 		{
 			"name": "SeeMeCNC PETG",
 			"sub_path": "filament/SeeMeCNC_PETG.json"
 		},
 		{
+			"name": "SeeMeCNC ABS",
+			"sub_path": "filament/SeeMeCNC_ABS.json"
+		},
+		{
 			"name": "SeeMeCNC PETG-CF",
 			"sub_path": "filament/SeeMeCNC_PETG-CF.json"
 		},
 		{
-			"name": "SeeMeCNC TPU",
-			"sub_path": "filament/SeeMeCNC_TPU.json"
+			"name": "SeeMeCNC PA-CF",
+			"sub_path": "filament/SeeMeCNC_PA-CF.json"
 		},
 		{
-			"name": "SeeMeCNC PLA",
-			"sub_path": "filament/SeeMeCNC_PLA.json"
+			"name": "SeeMeCNC TPU",
+			"sub_path": "filament/SeeMeCNC_TPU.json"
 		}
 	],
 	"machine_list": [

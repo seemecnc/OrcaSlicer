@@ -1,0 +1,23 @@
+{
+	"type": "filament",
+	"name": "SeeMeCNC ABS @base",
+	"inherits": "SeeMeCNC base",
+	"from": "system",
+	"instantiation": "false",
+	"slow_down_for_layer_cooling": [
+		"1"
+	],
+	"slow_down_layer_time": [
+		"10"
+	],
+	"fan_cooling_layer_time": [
+		"45"
+	],
+	"slow_down_min_speed": [
+		"20"
+	],
+	"filament_id": "SMCFB001",
+	"filament_type": [
+		"ABS"
+	]
+}

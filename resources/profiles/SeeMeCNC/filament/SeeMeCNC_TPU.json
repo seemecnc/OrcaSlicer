@@ -1,7 +1,7 @@
 {
 	"type": "filament",
 	"name": "SeeMeCNC TPU",
-	"inherits": "SeeMeCNC filament base",
+	"inherits": "SeeMeCNC TPU @base",
 	"from": "system",
 	"filament_id": "SMCFU001",
 	"instantiation": "true",
@@ -34,20 +34,5 @@
 		"0.35mm TPU Vase @SeeMeCNC RostockMAX v3.2 0.7",
 		"0.35mm TPU Vase @SeeMeCNC RostockMAX v4 0.7"
 	],
-	"compatible_prints_condition": "",
-	"slow_down_for_layer_cooling": [
-		"1"
-	],
-	"slow_down_layer_time": [
-		"18"
-	],
-	"fan_cooling_layer_time": [
-		"100"
-	],
-	"slow_down_min_speed": [
-		"20"
-	],
-	"filament_max_volumetric_speed": [
-		"4"
-	]
+	"compatible_prints_condition": ""
 }

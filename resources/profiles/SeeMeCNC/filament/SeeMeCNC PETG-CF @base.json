@@ -1,0 +1,23 @@
+{
+	"type": "filament",
+	"name": "SeeMeCNC PETG-CF @base",
+	"inherits": "SeeMeCNC base",
+	"from": "system",
+	"instantiation": "false",
+	"slow_down_for_layer_cooling": [
+		"1"
+	],
+	"slow_down_layer_time": [
+		"16"
+	],
+	"fan_cooling_layer_time": [
+		"35"
+	],
+	"slow_down_min_speed": [
+		"20"
+	],
+	"filament_id": "SMCFG002",
+	"filament_type": [
+		"PETG-CF"
+	]
+}

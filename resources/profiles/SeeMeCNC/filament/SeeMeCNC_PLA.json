@@ -1,7 +1,7 @@
 {
 	"type": "filament",
 	"name": "SeeMeCNC PLA",
-	"inherits": "SeeMeCNC filament base",
+	"inherits": "SeeMeCNC PLA @base",
 	"from": "system",
 	"filament_id": "SMCFL001",
 	"instantiation": "true",
@@ -153,17 +153,5 @@
 		"0.70mm Extra Draft @SeeMeCNC RostockMAX v3.2 1.0",
 		"0.70mm Extra Draft @SeeMeCNC RostockMAX v4 1.0"
 	],
-	"compatible_prints_condition": "",
-	"slow_down_for_layer_cooling": [
-		"1"
-	],
-	"slow_down_layer_time": [
-		"12"
-	],
-	"fan_cooling_layer_time": [
-		"100"
-	],
-	"slow_down_min_speed": [
-		"20"
-	]
+	"compatible_prints_condition": ""
 }

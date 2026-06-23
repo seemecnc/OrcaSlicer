@@ -1,0 +1,23 @@
+{
+	"type": "filament",
+	"name": "SeeMeCNC PA-CF @base",
+	"inherits": "SeeMeCNC base",
+	"from": "system",
+	"instantiation": "false",
+	"slow_down_for_layer_cooling": [
+		"1"
+	],
+	"slow_down_layer_time": [
+		"8"
+	],
+	"fan_cooling_layer_time": [
+		"12"
+	],
+	"slow_down_min_speed": [
+		"20"
+	],
+	"filament_id": "SMCFN001",
+	"filament_type": [
+		"PA-CF"
+	]
+}
