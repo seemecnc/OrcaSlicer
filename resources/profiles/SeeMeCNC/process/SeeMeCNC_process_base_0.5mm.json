@@ -215,7 +215,7 @@
 	"skirt_type": "combined",
 	"slice_closing_radius": "0.055",
 	"slicing_mode": "regular",
-	"slow_down_layers": "0",
+	"slow_down_layers": "3",
 	"slowdown_for_curled_perimeters": "0",
 	"small_area_infill_flow_compensation": "0",
 	"small_area_infill_flow_compensation_model": [
