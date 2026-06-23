@@ -18,7 +18,7 @@
 	"top_surface_jerk": "4",
 	"travel_jerk": "6",
 	"initial_layer_speed": "20",
-	"initial_layer_infill_speed": "30",
+	"initial_layer_infill_speed": "20",
 	"initial_layer_travel_speed": "100%",
 	"outer_wall_speed": "30",
 	"inner_wall_speed": "30",

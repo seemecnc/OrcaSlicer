@@ -96,7 +96,7 @@
 		"50%"
 	],
 	"pressure_advance": [
-		"0.05"
+		"0.1"
 	],
 	"enable_pressure_advance": [
 		"1"
