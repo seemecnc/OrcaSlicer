@@ -20,5 +20,6 @@
 	"sparse_infill_speed": "60",
 	"internal_solid_infill_speed": "60",
 	"travel_speed": "140",
-	"support_speed": "60"
+	"support_speed": "60",
+	"enable_arc_fitting": "0"
 }

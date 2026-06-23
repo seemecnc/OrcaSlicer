@@ -173,7 +173,7 @@
 		"90"
 	],
 	"fan_cooling_layer_time": [
-		"60"
+		"12"
 	],
 	"fan_max_speed": [
 		"35"
@@ -197,7 +197,7 @@
 		"PA-CF"
 	],
 	"full_fan_speed_layer": [
-		"5"
+		"3"
 	],
 	"hot_plate_temp": [
 		"90"
@@ -233,10 +233,10 @@
 		"1"
 	],
 	"slow_down_layer_time": [
-		"12"
+		"8"
 	],
 	"slow_down_min_speed": [
-		"50"
+		"5"
 	],
 	"supertack_plate_temp": [
 		"35"
@@ -276,5 +276,9 @@
 	],
 	"filament_deretraction_speed": [
 		"30"
-	]
+	],
+	"dont_slow_down_outer_wall": [
+		"0"
+	],
+	"description": "PA-CF — Bowden delta, smooth cooling (min layer 8s)"
 }

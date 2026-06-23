@@ -1,7 +1,7 @@
 {
 	"name": "SeeMeCNC",
-	"version": "2.4.0.15",
-	"force_update": "0",
+	"version": "2.4.0.26",
+	"force_update": "1",
 	"machine_model_list": [
 		{
 			"name": "SeeMeCNC Artemis 300",
@@ -709,5 +709,6 @@
 			"name": "SeeMeCNC RostockMAX v4 1.0 nozzle",
 			"sub_path": "machine/SeeMeCNC_RostockMAX_v4_1_0mm.json"
 		}
-	]
+	],
+	"description": "SeeMeCNC Bowden delta v2.4.0.26 — TPU max vol 4 mm³/s"
 }

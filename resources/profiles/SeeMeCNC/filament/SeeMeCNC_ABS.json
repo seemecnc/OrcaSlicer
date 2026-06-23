@@ -173,7 +173,7 @@
 		"100"
 	],
 	"fan_cooling_layer_time": [
-		"40"
+		"45"
 	],
 	"fan_max_speed": [
 		"30"
@@ -197,7 +197,7 @@
 		"ABS"
 	],
 	"full_fan_speed_layer": [
-		"5"
+		"3"
 	],
 	"hot_plate_temp": [
 		"100"
@@ -233,10 +233,10 @@
 		"1"
 	],
 	"slow_down_layer_time": [
-		"12"
+		"10"
 	],
 	"slow_down_min_speed": [
-		"50"
+		"5"
 	],
 	"supertack_plate_temp": [
 		"100"
@@ -273,5 +273,9 @@
 	],
 	"filament_deretraction_speed": [
 		"35"
-	]
+	],
+	"dont_slow_down_outer_wall": [
+		"0"
+	],
+	"description": "ABS — Bowden delta, smooth cooling (min layer 10s)"
 }

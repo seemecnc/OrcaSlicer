@@ -173,7 +173,7 @@
 		"70"
 	],
 	"fan_cooling_layer_time": [
-		"60"
+		"35"
 	],
 	"fan_max_speed": [
 		"50"
@@ -197,7 +197,7 @@
 		"PETG-CF"
 	],
 	"full_fan_speed_layer": [
-		"5"
+		"3"
 	],
 	"hot_plate_temp": [
 		"70"
@@ -233,10 +233,10 @@
 		"1"
 	],
 	"slow_down_layer_time": [
-		"12"
+		"16"
 	],
 	"slow_down_min_speed": [
-		"50"
+		"5"
 	],
 	"supertack_plate_temp": [
 		"70"
@@ -273,5 +273,9 @@
 	],
 	"filament_deretraction_speed": [
 		"30"
-	]
+	],
+	"dont_slow_down_outer_wall": [
+		"0"
+	],
+	"description": "PETG-CF — Bowden delta, smooth cooling (min layer 16s)"
 }
