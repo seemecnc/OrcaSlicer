@@ -346,6 +346,5 @@
 	],
 	"z_offset": "0",
 	"model": "SeeMeCNC BOSSdelta 300",
-	"thumbnail": "SeeMeCNC BOSSdelta 300_cover.png",
-	"description": "SeeMeCNC BOSSdelta 300 — 1.0mm nozzle, 495mm build height, 710mm Bowden"
+	"thumbnail": "SeeMeCNC BOSSdelta 300_cover.png"
 }

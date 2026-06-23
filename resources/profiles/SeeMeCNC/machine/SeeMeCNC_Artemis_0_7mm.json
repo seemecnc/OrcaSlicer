@@ -346,6 +346,5 @@
 	],
 	"z_offset": "0",
 	"model": "SeeMeCNC Artemis 300",
-	"thumbnail": "SeeMeCNC Artemis 300_cover.png",
-	"description": "SeeMeCNC Artemis 300 — 0.7mm nozzle, 500mm build height, 710mm Bowden"
+	"thumbnail": "SeeMeCNC Artemis 300_cover.png"
 }

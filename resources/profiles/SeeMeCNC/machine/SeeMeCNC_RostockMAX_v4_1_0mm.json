@@ -346,6 +346,5 @@
 	],
 	"z_offset": "0",
 	"model": "SeeMeCNC RostockMAX v4",
-	"thumbnail": "SeeMeCNC RostockMAX v4_cover.png",
-	"description": "SeeMeCNC RostockMAX v4 — 1.0mm nozzle, 385mm build height, 850mm Bowden"
+	"thumbnail": "SeeMeCNC RostockMAX v4_cover.png"
 }

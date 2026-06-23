@@ -1,8 +1,7 @@
 {
 	"name": "SeeMeCNC",
-	"version": "2.4.0.11",
+	"version": "2.4.0.14",
 	"force_update": "0",
-	"description": "SeeMeCNC delta FFF printers — smooth uniform speed profiles for long Bowden extrusion on RepRapFirmware/Duet hosts. Per-nozzle acceleration limits and filament Pressure Advance tables included.",
 	"machine_model_list": [
 		{
 			"name": "SeeMeCNC Artemis 300",

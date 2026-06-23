@@ -16,6 +16,5 @@
 	"precise_z_height": "0",
 	"skirt_distance": "1",
 	"skirt_loops": "2",
-	"spiral_mode": "0",
-	"description": "TPU Solid — 0.30mm layers on RostockMAX v4 0.7"
+	"spiral_mode": "0"
 }

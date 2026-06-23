@@ -20,6 +20,5 @@
 	"sparse_infill_speed": "80",
 	"internal_solid_infill_speed": "80",
 	"travel_speed": "160",
-	"support_speed": "80",
-	"description": "Extra Draft — 0.49mm layers on BOSSdelta 500 0510 0.7"
+	"support_speed": "80"
 }

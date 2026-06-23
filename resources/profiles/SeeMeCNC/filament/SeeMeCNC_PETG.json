@@ -209,13 +209,13 @@
 		"65"
 	],
 	"nozzle_temperature": [
-		"250"
+		"230"
 	],
 	"nozzle_temperature_initial_layer": [
-		"250"
+		"230"
 	],
 	"nozzle_temperature_range_high": [
-		"250"
+		"230"
 	],
 	"nozzle_temperature_range_low": [
 		"220"
@@ -273,6 +273,5 @@
 	],
 	"filament_deretraction_speed": [
 		"30"
-	],
-	"description": "SeeMeCNC PETG — 250°C, 12 mm³/s max volumetric, layer cooling slowdown enabled"
+	]
 }

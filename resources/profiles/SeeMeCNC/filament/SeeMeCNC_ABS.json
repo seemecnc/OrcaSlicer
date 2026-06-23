@@ -273,6 +273,5 @@
 	],
 	"filament_deretraction_speed": [
 		"35"
-	],
-	"description": "SeeMeCNC ABS — Bowden delta defaults with PA scaling tables"
+	]
 }

@@ -181,6 +181,5 @@
 	],
 	"keep_fan_always_on": [
 		"0"
-	],
-	"description": "SeeMeCNC TPU — flexible filament, low speeds, use TPU process profiles"
+	]
 }

@@ -9,6 +9,5 @@
 	"thumbnail": "SeeMeCNC BOSSdelta 500 0510_cover.png",
 	"machine_load_filament_time": "4",
 	"machine_unload_filament_time": "4",
-	"model_id": "SEEMECNC_BOSSDELTA_500_0510",
-	"description": "BOSSdelta 500 (0510 firmware). 1000mm build height. Bowden X1 path: 1400mm."
+	"model_id": "SEEMECNC_BOSSDELTA_500_0510"
 }

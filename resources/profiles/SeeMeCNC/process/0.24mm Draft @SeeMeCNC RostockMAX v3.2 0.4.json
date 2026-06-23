@@ -20,6 +20,5 @@
 	"sparse_infill_speed": "100",
 	"internal_solid_infill_speed": "100",
 	"travel_speed": "190",
-	"support_speed": "100",
-	"description": "Draft — 0.24mm layers on RostockMAX v3.2 0.4"
+	"support_speed": "100"
 }

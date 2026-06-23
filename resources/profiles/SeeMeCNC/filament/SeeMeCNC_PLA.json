@@ -443,7 +443,6 @@
 	"volumetric_speed_coefficients": [
 		""
 	],
-	"description": "SeeMeCNC PLA — Bowden delta defaults with PA scaling tables",
 	"filament_retraction_length": [
 		"5"
 	],
