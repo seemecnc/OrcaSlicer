@@ -2,7 +2,7 @@
 	"type": "filament",
 	"name": "SeeMeCNC PETG-CF",
 	"inherits": "SeeMeCNC filament base",
-	"from": "System",
+	"from": "system",
 	"filament_id": "SMCFG002",
 	"instantiation": "true",
 	"filament_settings_id": [
@@ -191,7 +191,7 @@
 		"12"
 	],
 	"filament_notes": [
-		"Pressure Advance starting values by machine and nozzle size:\nArtemis / BOSSdelta 300:\n  0.4mm nozzle: 0.4500\n  0.5mm nozzle: 0.3600\n  0.7mm nozzle: 0.2571\n  1.0mm nozzle: 0.1800\n\nRostockMAX v3.2 / v4:\n  0.4mm nozzle: 0.5387\n  0.5mm nozzle: 0.4310\n  0.7mm nozzle: 0.3078\n  1.0mm nozzle: 0.2155\n\nBOSSdelta 0505:\n  0.4mm nozzle: 0.6021\n  0.5mm nozzle: 0.4817\n  0.7mm nozzle: 0.3441\n  1.0mm nozzle: 0.2408\n\nBOSSdelta 0510:\n  0.4mm nozzle: 0.8873\n  0.5mm nozzle: 0.7099\n  0.7mm nozzle: 0.5070\n  1.0mm nozzle: 0.3549\n\nBOSSdelta 0521:\n  0.4mm nozzle: 1.4894\n  0.5mm nozzle: 1.1915\n  0.7mm nozzle: 0.8511\n  1.0mm nozzle: 0.5958\n\nRun OrcaSlicer PA calibration to fine-tune for your setup."
+		"Pressure Advance (PETG-CF)\n\nPA compensates for compressed filament in the Bowden tube when flow rate changes.\nScale with outer-wall acceleration and bowden path length.\n\nReference: Artemis 0.7mm @ 800 mm/s², 710mm bowden = 0.0450\n\nFormula:\n  PA = 0.0450 x (your outer_wall_acceleration / 800) x (your_bowden_mm / 710)\n\nBowden X1 path lengths:\n  Artemis / BOSSdelta 300: 710mm (reference)\n  RostockMAX v3.2 / v4: 850mm\n  BOSSdelta 0505: 950mm\n  BOSSdelta 0510: 1400mm\n  BOSSdelta 0521: 2350mm\n\nProfile outer-wall accelerations:\n  0.4mm nozzle: 1000 mm/s²\n  0.5mm nozzle: 900 mm/s²\n  0.7mm nozzle: 800 mm/s²\n  1.0mm nozzle: 500 mm/s²\n\nStarting values by machine:\n\nArtemis / BOSSdelta 300 (710mm, x1.000):\n  0.4mm nozzle: 0.0562\n  0.5mm nozzle: 0.0506\n  0.7mm nozzle: 0.0450\n  1.0mm nozzle: 0.0281\n\nRostockMAX v3.2 / v4 (850mm, x1.197):\n  0.4mm nozzle: 0.0673\n  0.5mm nozzle: 0.0606\n  0.7mm nozzle: 0.0539\n  1.0mm nozzle: 0.0337\n\nBOSSdelta 0505 (950mm, x1.338):\n  0.4mm nozzle: 0.0753\n  0.5mm nozzle: 0.0677\n  0.7mm nozzle: 0.0602\n  1.0mm nozzle: 0.0376\n\nBOSSdelta 0510 (1400mm, x1.972):\n  0.4mm nozzle: 0.1109\n  0.5mm nozzle: 0.0998\n  0.7mm nozzle: 0.0887\n  1.0mm nozzle: 0.0555\n\nBOSSdelta 0521 (2350mm, x3.310):\n  0.4mm nozzle: 0.1862\n  0.5mm nozzle: 0.1676\n  0.7mm nozzle: 0.1489\n  1.0mm nozzle: 0.0931\n\nRun OrcaSlicer PA calibration after any acceleration, bowden, or speed change. Seam blobs = PA too low. Seam gaps after decel = PA too high."
 	],
 	"filament_type": [
 		"PETG-CF"
@@ -209,10 +209,10 @@
 		"55"
 	],
 	"nozzle_temperature": [
-		"235"
+		"250"
 	],
 	"nozzle_temperature_initial_layer": [
-		"235"
+		"250"
 	],
 	"nozzle_temperature_range_high": [
 		"255"
@@ -224,7 +224,7 @@
 		"50%"
 	],
 	"pressure_advance": [
-		"0.45"
+		"0.0450"
 	],
 	"reduce_fan_stop_start_freq": [
 		"1"
@@ -233,10 +233,10 @@
 		"1"
 	],
 	"slow_down_layer_time": [
-		"45"
+		"12"
 	],
 	"slow_down_min_speed": [
-		"20"
+		"50"
 	],
 	"supertack_plate_temp": [
 		"70"
@@ -273,5 +273,6 @@
 	],
 	"filament_deretraction_speed": [
 		"30"
-	]
+	],
+	"description": "SeeMeCNC PETG-CF — carbon-filled PETG for Bowden delta printers"
 }

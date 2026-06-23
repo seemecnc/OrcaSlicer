@@ -2,7 +2,7 @@
 	"type": "process",
 	"name": "0.49mm Extra Draft @SeeMeCNC BOSSdelta 500 0510 0.7",
 	"inherits": "SeeMeCNC process base 0.7mm",
-	"from": "System",
+	"from": "system",
 	"instantiation": "true",
 	"print_settings_id": "0.49mm Extra Draft @SeeMeCNC BOSSdelta 500 0510 0.7",
 	"compatible_printers": [
@@ -20,5 +20,6 @@
 	"sparse_infill_speed": "80",
 	"internal_solid_infill_speed": "80",
 	"travel_speed": "160",
-	"support_speed": "80"
+	"support_speed": "80",
+	"description": "Extra Draft — 0.49mm layers on BOSSdelta 500 0510 0.7"
 }

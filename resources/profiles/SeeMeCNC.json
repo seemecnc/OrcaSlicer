@@ -1,8 +1,8 @@
 {
 	"name": "SeeMeCNC",
-	"version": "2.4.0.04",
+	"version": "2.4.0.11",
 	"force_update": "0",
-	"description": "SeeMeCNC - fixed online profile structure with per-nozzle process bases, safe accel/jerk, visible bed logo, and circle slicing fixes",
+	"description": "SeeMeCNC delta FFF printers — smooth uniform speed profiles for long Bowden extrusion on RepRapFirmware/Duet hosts. Per-nozzle acceleration limits and filament Pressure Advance tables included.",
 	"machine_model_list": [
 		{
 			"name": "SeeMeCNC Artemis 300",
@@ -53,6 +53,10 @@
 		{
 			"name": "SeeMeCNC process base",
 			"sub_path": "process/SeeMeCNC_process_base.json"
+		},
+		{
+			"name": "SeeMeCNC process base TPU 0.7mm",
+			"sub_path": "process/SeeMeCNC_process_base_TPU_0.7mm.json"
 		},
 		{
 			"name": "0.16mm Fine @SeeMeCNC Artemis 0.4",

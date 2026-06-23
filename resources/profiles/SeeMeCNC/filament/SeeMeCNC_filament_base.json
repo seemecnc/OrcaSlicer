@@ -181,5 +181,5 @@
 	"volumetric_speed_coefficients": [
 		""
 	],
-	"description": "SeeMeCNC configurations"
+	"description": "SeeMeCNC Bowden delta filament base — shared retraction and PA defaults"
 }

@@ -2,7 +2,7 @@
 	"type": "process",
 	"name": "0.30mm Draft @SeeMeCNC BOSSdelta 500 0521 0.5",
 	"inherits": "SeeMeCNC process base 0.5mm",
-	"from": "System",
+	"from": "system",
 	"instantiation": "true",
 	"print_settings_id": "0.30mm Draft @SeeMeCNC BOSSdelta 500 0521 0.5",
 	"compatible_printers": [
@@ -20,5 +20,6 @@
 	"sparse_infill_speed": "100",
 	"internal_solid_infill_speed": "100",
 	"travel_speed": "190",
-	"support_speed": "100"
+	"support_speed": "100",
+	"description": "Draft — 0.30mm layers on BOSSdelta 500 0521 0.5"
 }

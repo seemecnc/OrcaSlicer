@@ -1,10 +1,12 @@
 {
 	"type": "machine",
 	"name": "SeeMeCNC BOSSdelta 500 0521 1.0 nozzle",
-	"from": "System",
+	"from": "system",
 	"instantiation": "true",
 	"adaptive_bed_mesh_margin": "0",
 	"auxiliary_fan": "0",
+	"bed_custom_model": "SeeMeCNC_Buildplate_Model_500.STL",
+	"bed_custom_texture": "",
 	"bed_exclude_area": [
 		"0x0"
 	],
@@ -15,7 +17,7 @@
 	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n{if layer_num == 1}M104 S[nozzle_temperature] ; Step down from first layer temp to print temp{endif}\nG92 E0\n",
 	"best_object_pos": "0.5,0.5",
 	"change_extrusion_role_gcode": "",
-	"change_filament_gcode": "{if layer_num >= 0}\nG92 E0\nG1 E-5 F3000\nG1 E-155 F5000\nT[next_extruder]\n{if layer_num == 0}\nM109 S[first_layer_temperature]\n{else}\nM109 S[nozzle_temperature]\n{endif}\nG1 E160 F5000\nG92 E0\n{endif}",
+	"change_filament_gcode": "{if layer_num >= 0}\nG92 E0\nG1 E-5 F3000\nG1 E-255 F5000\nT[next_extruder]\n{if layer_num == 0}\nM109 S[first_layer_temperature]\n{else}\nM109 S[nozzle_temperature]\n{endif}\nG1 E260 F5000\nG92 E0\n{endif}",
 	"cooling_tube_length": "5",
 	"cooling_tube_retraction": "260",
 	"default_filament_profile": [
@@ -69,7 +71,7 @@
 		"0"
 	],
 	"machine_end_gcode": [
-		";======= SEEMECNC BOSSDELTA 500 0521 END G-CODE =======\nM104 S0          ; Turn off hotend\nM140 S0          ; Turn off heated bed\nM107 T0          ; Turn off part cooling fan\nG91              ; Relative positioning\nG1 Z2 E-160 F6000  ; Lift 2mm and retract 160mm\nG92 E0\nG90              ; Absolute positioning\nM203 Z18000      ; Allow fast Z for homing\nG28              ; Home all axes - clears part immediately on a delta\n;======= END G-CODE ======="
+		"; ----------------------------------------\n; SeeMeCNC BOSSDELTA 500 0521 - End G-code\n; ----------------------------------------\nM104 S0          ; Turn off hotend\nM140 S0          ; Turn off heated bed\nM107 T0          ; Turn off part cooling fan\nG91              ; Relative positioning\nG1 Z2 E-260 F6000  ; Lift 2mm and retract 260mm\nG92 E0\nG90              ; Absolute positioning\nM203 Z18000      ; Allow fast Z for homing\nG28              ; Home all axes - clears part immediately on a delta\n; ----------------------------------------\n; End G-code"
 	],
 	"machine_load_filament_time": "4",
 	"machine_max_acceleration_e": [
@@ -145,7 +147,7 @@
 	],
 	"machine_pause_gcode": "M601",
 	"machine_start_gcode": [
-		";======= SEEMECNC BOSSDELTA 500 0521 START G-CODE =======\nG21              ; Set units to mm\nG90              ; Absolute positioning\nM82              ; Extruder to absolute mode\nG28              ; Home all axes\nG1 Z50 F9000     ; Lift nozzle for safe heating\n; --- SELECT STARTING TOOL ---\nT[initial_tool]  ; Activate the first assigned filament in OrcaSlicer\n; --- PREHEAT ---\nM140 S[first_layer_bed_temperature]  ; Start bed heating\nM104 S[first_layer_temperature]      ; Start nozzle heating\nM190 S[first_layer_bed_temperature]  ; Wait for bed to reach temp\nM109 S[first_layer_temperature]      ; Wait for nozzle to reach temp\n; --- RE-PRIME BOWDEN TUBE ---\nG92 E0\nG1 E160.5 F3000  ; Retract 160mm\nG92 E0\n; --- PURGE LINE (curved arc near front edge, 500mm bed) ---\nG92 E0\nG1 X-50 Y-234.7 Z0.4 F5000   ; Move to arc start (inside 250mm radius)\nG1 Z0.3 F1000                    ; Drop to prime height\nG3 X50 Y-234.7 R240.0 E40 F600  ; Arc purge, 100mm sweep, heavy extrusion\nG1 E38 F4500                     ; Retract 2mm before wipe (Bowden)\nG1 X65 Y-224.7 Z0.2 F6000     ; Wipe move at Z0.2\nG92 E0                           ; Zero extruder before print\n;======= END START G-CODE ======="
+		"; ----------------------------------------\n; SeeMeCNC BOSSDELTA 500 0521 - Start G-code\n; ----------------------------------------\nG21              ; Set units to mm\nG90              ; Absolute positioning\nM82              ; Extruder to absolute mode\nG28              ; Home all axes\nG1 Z50 F9000     ; Lift nozzle for safe heating\n; --- SELECT STARTING TOOL ---\nT[initial_tool]  ; Activate the first assigned filament in OrcaSlicer\n; --- PREHEAT ---\nM140 S[first_layer_bed_temperature]  ; Start bed heating\nM104 S[first_layer_temperature]      ; Start nozzle heating\nM190 S[first_layer_bed_temperature]  ; Wait for bed to reach temp\nM109 S[first_layer_temperature]      ; Wait for nozzle to reach temp\n; --- RE-PRIME BOWDEN TUBE ---\nG92 E0\nG1 E260.5 F3000  ; Retract 160mm\nG92 E0\n; --- PURGE LINE (curved arc near front edge, 500mm bed) ---\nG92 E0\nG1 X-50 Y-234.7 Z0.4 F5000   ; Move to arc start (inside 250mm radius)\nG1 Z0.3 F1000                    ; Drop to prime height\nG3 X50 Y-234.7 R240.0 E40 F600  ; Arc purge, 100mm sweep, heavy extrusion\nG1 E38 F4500                     ; Retract 2mm before wipe (Bowden)\nG1 X65 Y-224.7 Z0.2 F6000     ; Wipe move at Z0.2\nG92 E0                           ; Zero extruder before print\n; ----------------------------------------\n; End start G-code"
 	],
 	"machine_tool_change_time": "0",
 	"machine_unload_filament_time": "4",
@@ -262,7 +264,7 @@
 		"Bowden Standard"
 	],
 	"printer_model": "SeeMeCNC BOSSdelta 500 0521",
-	"printer_notes": "",
+	"printer_notes": "Bowden X1 path 2350mm. See filament notes for PA starting values.",
 	"printer_settings_id": "SeeMeCNC BOSSdelta 500 0521 1.0 nozzle",
 	"printer_structure": "delta",
 	"printer_technology": "FFF",
@@ -345,5 +347,5 @@
 	"z_offset": "0",
 	"model": "SeeMeCNC BOSSdelta 500 0521",
 	"thumbnail": "SeeMeCNC BOSSdelta 500 0521_cover.png",
-	"description": "SeeMeCNC configurations"
+	"description": "SeeMeCNC BOSSdelta 500 0521 — 1.0mm nozzle, 2100mm build height, 2350mm Bowden"
 }

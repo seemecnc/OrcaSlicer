@@ -1,8 +1,8 @@
 {
 	"type": "process",
 	"name": "0.35mm TPU Vase @SeeMeCNC BOSSdelta 300 0.7",
-	"inherits": "SeeMeCNC process base 0.7mm",
-	"from": "System",
+	"inherits": "SeeMeCNC process base TPU 0.7mm",
+	"from": "system",
 	"instantiation": "true",
 	"print_settings_id": "0.35mm TPU Vase @SeeMeCNC BOSSdelta 300 0.7",
 	"compatible_printers": [
@@ -16,5 +16,6 @@
 	"precise_z_height": "0",
 	"skirt_distance": "1",
 	"skirt_loops": "2",
-	"spiral_mode": "1"
+	"spiral_mode": "1",
+	"description": "TPU Vase — 0.35mm layers on BOSSdelta 300 0.7"
 }

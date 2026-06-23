@@ -10,5 +10,5 @@
 	"machine_load_filament_time": "4",
 	"machine_unload_filament_time": "4",
 	"model_id": "SEEMECNC_BOSSDELTA_500_0521",
-	"description": "SeeMeCNC configurations"
+	"description": "BOSSdelta 500 (0521 firmware). 2100mm build height. Bowden X1 path: 2350mm."
 }

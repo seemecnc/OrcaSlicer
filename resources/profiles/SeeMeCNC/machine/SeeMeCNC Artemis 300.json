@@ -10,5 +10,5 @@
 	"machine_load_filament_time": "4",
 	"machine_unload_filament_time": "4",
 	"model_id": "SEEMECNC_ARTEMIS_300",
-	"description": "SeeMeCNC configurations"
+	"description": "Artemis 300. 500mm build height. Bowden reference path: ~710mm."
 }

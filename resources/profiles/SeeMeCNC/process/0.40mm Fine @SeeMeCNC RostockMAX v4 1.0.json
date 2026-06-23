@@ -2,7 +2,7 @@
 	"type": "process",
 	"name": "0.40mm Fine @SeeMeCNC RostockMAX v4 1.0",
 	"inherits": "SeeMeCNC process base 1.0mm",
-	"from": "System",
+	"from": "system",
 	"instantiation": "true",
 	"print_settings_id": "0.40mm Fine @SeeMeCNC RostockMAX v4 1.0",
 	"compatible_printers": [
@@ -16,5 +16,6 @@
 	"precise_z_height": "0",
 	"skirt_distance": "2",
 	"skirt_loops": "0",
-	"spiral_mode": "0"
+	"spiral_mode": "0",
+	"description": "Fine — 0.40mm layers on RostockMAX v4 1.0"
 }
