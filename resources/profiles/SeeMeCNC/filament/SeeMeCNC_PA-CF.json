@@ -191,7 +191,7 @@
 		"12"
 	],
 	"filament_notes": [
-		"Pressure Advance (PA-CF)\n\nPA compensates for compressed filament in the Bowden tube when flow rate changes.\nScale with outer-wall acceleration and bowden path length.\n\nReference: Artemis 0.7mm @ 800 mm/s², 710mm bowden = 0.0550\n\nFormula:\n  PA = 0.0550 x (your outer_wall_acceleration / 800) x (your_bowden_mm / 710)\n\nBowden X1 path lengths:\n  Artemis / BOSSdelta 300: 710mm (reference)\n  RostockMAX v3.2 / v4: 850mm\n  BOSSdelta 0505: 950mm\n  BOSSdelta 0510: 1400mm\n  BOSSdelta 0521: 2350mm\n\nProfile outer-wall accelerations:\n  0.4mm nozzle: 1000 mm/s²\n  0.5mm nozzle: 900 mm/s²\n  0.7mm nozzle: 800 mm/s²\n  1.0mm nozzle: 500 mm/s²\n\nStarting values by machine:\n\nArtemis / BOSSdelta 300 (710mm, x1.000):\n  0.4mm nozzle: 0.0688\n  0.5mm nozzle: 0.0619\n  0.7mm nozzle: 0.0550\n  1.0mm nozzle: 0.0344\n\nRostockMAX v3.2 / v4 (850mm, x1.197):\n  0.4mm nozzle: 0.0823\n  0.5mm nozzle: 0.0741\n  0.7mm nozzle: 0.0658\n  1.0mm nozzle: 0.0412\n\nBOSSdelta 0505 (950mm, x1.338):\n  0.4mm nozzle: 0.0920\n  0.5mm nozzle: 0.0828\n  0.7mm nozzle: 0.0736\n  1.0mm nozzle: 0.0460\n\nBOSSdelta 0510 (1400mm, x1.972):\n  0.4mm nozzle: 0.1356\n  0.5mm nozzle: 0.1220\n  0.7mm nozzle: 0.1085\n  1.0mm nozzle: 0.0678\n\nBOSSdelta 0521 (2350mm, x3.310):\n  0.4mm nozzle: 0.2276\n  0.5mm nozzle: 0.2048\n  0.7mm nozzle: 0.1820\n  1.0mm nozzle: 0.1138\n\nRun OrcaSlicer PA calibration after any acceleration, bowden, or speed change. Seam blobs = PA too low. Seam gaps after decel = PA too high."
+		""
 	],
 	"filament_type": [
 		"PA-CF"
@@ -236,7 +236,7 @@
 		"8"
 	],
 	"slow_down_min_speed": [
-		"5"
+		"20"
 	],
 	"supertack_plate_temp": [
 		"35"
@@ -265,20 +265,8 @@
 	"keep_fan_always_on": [
 		"0"
 	],
-	"filament_retraction_length": [
-		"5"
-	],
-	"filament_z_hop": [
-		"0.3"
-	],
-	"filament_retraction_speed": [
-		"40"
-	],
-	"filament_deretraction_speed": [
-		"30"
-	],
 	"dont_slow_down_outer_wall": [
 		"0"
 	],
-	"description": "PA-CF — Bowden delta, smooth cooling (min layer 8s)"
+	"description": ""
 }

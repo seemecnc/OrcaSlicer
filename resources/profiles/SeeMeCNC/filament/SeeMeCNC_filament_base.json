@@ -180,5 +180,20 @@
 	],
 	"volumetric_speed_coefficients": [
 		""
+	],
+	"filament_retraction_length": [
+		"5"
+	],
+	"filament_retraction_speed": [
+		"60"
+	],
+	"filament_deretraction_speed": [
+		"60"
+	],
+	"filament_z_hop": [
+		"0.3"
+	],
+	"filament_retract_restart_extra": [
+		"0"
 	]
 }

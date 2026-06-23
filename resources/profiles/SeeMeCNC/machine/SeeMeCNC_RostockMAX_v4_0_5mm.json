@@ -293,7 +293,7 @@
 		"0"
 	],
 	"retract_restart_extra_toolchange": [
-		"2"
+		"0"
 	],
 	"retract_when_changing_layer": [
 		"1"
@@ -302,7 +302,7 @@
 		"18"
 	],
 	"retraction_length": [
-		"6"
+		"5"
 	],
 	"retraction_minimum_travel": [
 		"1"

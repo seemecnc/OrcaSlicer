@@ -1,6 +1,6 @@
 {
 	"name": "SeeMeCNC",
-	"version": "2.4.0.26",
+	"version": "2.4.0.35",
 	"force_update": "1",
 	"machine_model_list": [
 		{
@@ -710,5 +710,5 @@
 			"sub_path": "machine/SeeMeCNC_RostockMAX_v4_1_0mm.json"
 		}
 	],
-	"description": "SeeMeCNC Bowden delta v2.4.0.26 — TPU max vol 4 mm³/s"
+	"description": ""
 }
