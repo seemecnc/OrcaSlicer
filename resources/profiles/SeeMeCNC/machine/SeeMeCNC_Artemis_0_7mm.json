@@ -26,7 +26,7 @@
 	"default_nozzle_volume_type": [
 		"Standard"
 	],
-	"default_print_profile": "0.35mm Standard @SeeMeCNC Artemis 0.7",
+	"default_print_profile": "0.35mm Standard @SeeMeCNC Artemis",
 	"deretraction_speed": [
 		"60"
 	],
