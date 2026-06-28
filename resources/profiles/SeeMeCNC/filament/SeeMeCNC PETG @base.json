@@ -14,7 +14,7 @@
 		"50"
 	],
 	"slow_down_min_speed": [
-		"20"
+		"10"
 	],
 	"filament_id": "SMCFG001",
 	"filament_type": [
@@ -96,10 +96,10 @@
 		"50%"
 	],
 	"pressure_advance": [
-		"0.1"
+		"0"
 	],
 	"enable_pressure_advance": [
-		"1"
+		"0"
 	],
 	"filament_flow_ratio": [
 		"0.98"
