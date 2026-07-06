@@ -1,6 +1,6 @@
 {
 	"name": "SeeMeCNC",
-	"version": "2.5.0.49",
+	"version": "2.5.0.66",
 	"force_update": "1",
 	"machine_model_list": [
 		{
@@ -84,10 +84,6 @@
 		{
 			"name": "0.16mm Fine @SeeMeCNC RostockMAX v4",
 			"sub_path": "process/0.16mm Fine @SeeMeCNC RostockMAX v4.json"
-		},
-		{
-			"name": "0.20mm Draft @SeeMeCNC RostockMAX v3.2",
-			"sub_path": "process/0.20mm Draft @SeeMeCNC RostockMAX v3.2.json"
 		},
 		{
 			"name": "0.20mm Fine @SeeMeCNC Artemis",

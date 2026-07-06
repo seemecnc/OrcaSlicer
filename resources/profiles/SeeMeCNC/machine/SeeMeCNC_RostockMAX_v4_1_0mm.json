@@ -103,20 +103,20 @@
 		"5000"
 	],
 	"machine_max_jerk_e": [
-		"15",
-		"15"
+		"25",
+		"25"
 	],
 	"machine_max_jerk_x": [
-		"15",
-		"15"
+		"25",
+		"25"
 	],
 	"machine_max_jerk_y": [
-		"15",
-		"15"
+		"25",
+		"25"
 	],
 	"machine_max_jerk_z": [
-		"15",
-		"15"
+		"25",
+		"25"
 	],
 	"machine_max_junction_deviation": [
 		"0.01"
@@ -302,7 +302,7 @@
 		"18"
 	],
 	"retraction_length": [
-		"5"
+		"6"
 	],
 	"retraction_minimum_travel": [
 		"1"

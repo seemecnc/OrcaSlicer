@@ -16,6 +16,9 @@
 	"slow_down_min_speed": [
 		"10"
 	],
+	"filament_max_volumetric_speed": [
+		"8"
+	],
 	"filament_id": "SMCFB001",
 	"filament_type": [
 		"ABS"
@@ -105,7 +108,7 @@
 		"0.98"
 	],
 	"filament_shrink": [
-		"99.4%"
+		"100%"
 	],
 	"filament_density": [
 		"1.04"

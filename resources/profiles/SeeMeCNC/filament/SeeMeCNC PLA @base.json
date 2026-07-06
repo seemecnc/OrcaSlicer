@@ -16,6 +16,9 @@
 	"slow_down_min_speed": [
 		"10"
 	],
+	"filament_max_volumetric_speed": [
+		"12"
+	],
 	"filament_id": "SMCFL001",
 	"filament_type": [
 		"PLA"
@@ -108,7 +111,7 @@
 		"0.98"
 	],
 	"filament_shrink": [
-		"99.9%"
+		"100%"
 	],
 	"filament_density": [
 		"1.24"

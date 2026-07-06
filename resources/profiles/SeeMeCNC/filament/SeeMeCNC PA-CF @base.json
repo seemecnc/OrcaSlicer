@@ -16,6 +16,9 @@
 	"slow_down_min_speed": [
 		"10"
 	],
+	"filament_max_volumetric_speed": [
+		"4"
+	],
 	"filament_id": "SMCFN001",
 	"filament_type": [
 		"PA-CF"
@@ -108,7 +111,7 @@
 		"0.98"
 	],
 	"filament_shrink": [
-		"99.5%"
+		"100%"
 	],
 	"filament_density": [
 		"1.15"

@@ -17,7 +17,7 @@
 		"10"
 	],
 	"filament_max_volumetric_speed": [
-		"4"
+		"2"
 	],
 	"filament_id": "SMCFU001",
 	"filament_type": [
@@ -118,5 +118,8 @@
 	],
 	"dont_slow_down_outer_wall": [
 		"0"
+	],
+	"filament_shrink": [
+		"100%"
 	]
 }
